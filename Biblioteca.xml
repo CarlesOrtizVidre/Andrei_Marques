@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE biblioteca [
+<!ELEMENT biblioteca (libro*)>
+<!ELEMENT libro (titulo+, autor+,editorial,fechaPublicacion,comentario)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT editorial ANY>
+<!ELEMENT fechaPublicacion anyo CDATA #EMPTY>
+<!ELEMENT comentario ANY >
+]>
+
+<biblioteca>
+  <libro>
+
+	<titulo>Harry Potter y la c�mara secreta</titulo>
+	<autor>J.K.Rowling</autor>
+	<fechaPublicacion anyo="1997"/>
+	<comentario>Segunda novela tras la exitosa 
+		<titulo>Harry Potter y la piedra filosofal</titulo>
+	</comentario>
+  </libro>
+  <libro>
+	<titulo>El guardian invisible</titulo>
+	<autor>Dolores Redondo</autor>
+	<fechaPublicacion anyo="2013"/>
+	<comentario>Llevada al cine en 2017</comentario>
+  </libro>
+  <libro>
+	<titulo>El capit�n Alatriste</titulo>
+	<editorial>Alfaguara</editorial>
+	<autor>Arturo P�rez-Reverte</autor>
+	<autor>Carlota P�rez-Reverte</autor>
+	<fechaPublicacion anyo="1996"/>
+	<comentario>Saga hist�rica ambientada en el siglo de oro</comentario>
+  </libro>
+</biblioteca>

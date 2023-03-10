@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda [
+<!ELEMENT angenda (contacto*)>
+<!ELEMENT contacto (empresa, datos*)>
+<!ELEMENT empresa (#PCDATA)>
+<!ELEMENT datos (nombre*, cargo*,direccion*,email*,tel*)>
+<!ELEMENT cargo (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT tel(#PCDATA)>
+]>
+<agenda>
+    <contacto>
+        <empresa>autos david</empresa>
+        <datos>
+            <nombre> Jordi Masromeu i Barra</nombre>
+            <cargo> Director Comercial</cargo>
+            <direccion> P.Las Flores, s/n Almeria</direccion>
+            <email> info@info.es</email>
+            <tel>962561514</tel>
+            <tel>624547698</tel> 
+        </datos>
+    </contacto>
+    <contacto>
+        <empresa>Concesionario Pérez</empresa>
+        <datos>
+            <nombre> Francisco Pérez</nombre>
+            <cargo> Director Gerente</cargo>
+            <direccion> Carretera Barcelona km.10</direccion>
+            <tel>96123456</tel>
+        </datos>
+    </contacto>
+    <contacto>
+        <empresa>Concesionario Pérez</empresa>
+        <datos>
+            <nombre> Paquita Pérez</nombre>
+            <cargo> Administrativa</cargo>
+            <email> Carretera Barcelona km.10</email>
+        </datos>
+    </contacto>
+</agenda>

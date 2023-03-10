@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<! DOCTYPE Continentes [
+<!ELEMENT Continentes (continente)>
+<!ELEMENT continente (nombre, ,habitantes, gobierno)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT habitantes (#PCDATA)>
+<!ELEMENT gobierno EMPTY>
+]>
+<Continentes>
+    <continente>
+        <nombre>Europa</nombre>
+        <habitantes>746,4M</habitantes>
+        <gobierno>Democracia representativa</gobierno>
+    </continente>
+    <continente>
+        <nombre>Africa</nombre>
+        <habitantes>1216M</habitantes>
+        <gobierno>Republica parlamentarea</gobierno>
+    </continente>
+    <continente>
+        <nombre>Asia</nombre>
+        <habitantes>4561M</habitantes>
+        <gobierno>Monarquia constitucional</gobierno>
+    </continente>
+     <continente>
+        <nombre>America</nombre>
+        <habitantes>1002M</habitantes>
+        <gobierno>Republica presidencialista</gobierno>
+    </continente>
+     <continente>
+        <nombre>Antartida</nombre>
+        <habitantes>1000 - 5000</habitantes>
+        <gobierno>Sin Gobierno</gobierno>
+    </continente>
+</Continentes>

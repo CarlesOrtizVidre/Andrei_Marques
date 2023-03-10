@@ -1,0 +1,15 @@
+pais{
+    font-size: large;
+    background-color: red;
+    color: white;
+}
+
+nombre{
+    color: blue;
+    font-style: italic;
+}
+continente{
+    display: list-item;
+    list-style: none;
+    margin: 20px;
+}

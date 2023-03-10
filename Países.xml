@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<! DOCTYPE Países [
+<!ELEMENT Países (pais)>
+<!ELEMENT pais (nombre, continente,habitantes, gobierno)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT continente ANY>
+<!ELEMENT habitantes (#PCDATA)>
+<!ELEMENT gobierno EMPTY>
+]>
+<Países>
+    <pais>
+        <nombre>Irlanda</nombre>
+        <continente>Europa</continente>
+        <habitantes>5,033</habitantes>
+        <gobierno>Republica parlamentarea</gobierno>
+  </pais>
+      <pais>
+        <nombre>España</nombre>
+        <continente>Europa</continente>
+        <habitantes>47,42</habitantes>
+        <gobierno>Monarquia parlamentarea</gobierno>
+  </pais>
+</Países>
